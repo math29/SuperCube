@@ -1,0 +1,95 @@
+/*--------------------------------------------
+RECTANGLE 1
+---------------------------------------------*/
+body
+{
+  background:#222;
+}
+h1 
+{
+  text-align:center;
+  font-size:60px;
+  color:#111;
+  text-shadow:1px 1px 1px #444;
+  margin-top:100px;
+}
+#container
+{
+  transition:all 2s;
+  margin-left:16%;
+  width:400px;
+  margin-top:60px;
+  cursor:pointer;
+  display:inline-block;
+  height:300px;
+  position: relative;  
+}
+.cube
+{
+  
+}
+.rect
+{
+  width:200px;
+  height:200px;
+  background:yellow;
+  position:absolute;
+  transition:transform 2s,background 2s 2s,box-shadow 2s 1s;
+  opacity:0.5;
+}
+
+/*.six
+{
+  background:red;
+  transform:skewY(-15deg) scaleX(0.5) translate(300px,27px);
+  opacity:0.2;
+}
+.five
+{
+  background:lime;
+  transform:skewY(-15deg) scaleX(0.5) translate(-100px,-27px);
+}
+.four
+{
+  background:blue;
+  transform:skewX(-75deg) scaleY(0.138) translate(370px,622px);
+  opacity:0.1;
+}
+.three
+{
+  background:orange;
+  transform:skewX(-75deg) scaleY(0.138) translate(-367px,-810px);
+  opacity:0.1;
+}
+.two
+{
+  background:cyan;
+  transform:translate(101px,-27px) scaleY(1);
+  opacity:0.4;
+}
+.one-color
+{
+  background:white;
+  box-shadow:5px -5px 20px #aaa inset,0px 0px 8px #ddd, 0 0 100px #bbb;
+}*/
+.reset
+{
+  transform:none;
+}
+#container:hover
+{
+  margin-left:8%;
+}
+
+
+/* RECTANGLE 2 */
+
+.rect2
+{
+	width:200px;
+	height:200px;
+	background:blue;
+	/* position:absolute; */
+	/* transition:transform 2s,background 2s 2s,box-shadow 2s 1s; */
+	opacity:0.5;
+}
